@@ -14,10 +14,8 @@ Just include `dotfiles` in your node's `run_list`:
   "run_list": [
     "recipe[dotfiles]"
   ],
-  "override_attributes": {
-    "dotfiles": {
-      "data_bag_user_id": "vagrant"
-    }
+  "dotfiles": {
+    "data_bag_user_id": "vagrant"
   }
 }
 ```
